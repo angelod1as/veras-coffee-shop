@@ -1,0 +1,40 @@
+.contact-boxes {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  color: white;
+}
+
+.contact-box {
+  padding: 0.5rem;
+  flex: 1;
+}
+
+.box-brown {
+  background-color: #a18072;
+}
+
+.box-darkgreen {
+  background-color: #6f6d66;
+}
+
+.box-green {
+  background-color: #63706b;
+}
+
+h3 {
+  margin-bottom: 0.5rem;
+}
+
+.logo-box {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.instagram-logo {
+  width: 50px;
+  height: auto;
+  filter: invert();
+}

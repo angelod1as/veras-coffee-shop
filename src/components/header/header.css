@@ -1,0 +1,30 @@
+.header-buttons {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-image {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-image .image {
+  border-radius: 50%;
+  width: 170px;
+  height: auto;
+}
+
+.header-buttons button {
+  background-color: #a18072;
+  font-family: var(--indie-flower);
+  color: white;
+  padding: 0.25rem 0.5rem;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.header-buttons button:hover {
+  background-color: #876759;
+  transition: all 0.3s;
+}
