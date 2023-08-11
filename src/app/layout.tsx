@@ -2,7 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Indie_Flower, Roboto } from "next/font/google";
 
-export const indieFlower = Indie_Flower({
+const indieFlower = Indie_Flower({
   weight: "400",
   subsets: ["latin"],
   variable: "--indie-flower",
