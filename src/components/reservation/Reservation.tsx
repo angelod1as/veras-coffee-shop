@@ -57,8 +57,8 @@ export const Reservation = () => {
 
         <div className="reservation-form-row">
           <label htmlFor="terms" className="reservation-form-terms">
-            <input type="checkbox" name="terms" id="terms" />I accept the terms
-            of use and Privacy Policy
+            <input type="checkbox" name="terms" id="terms" required />I accept
+            the terms of use and Privacy Policy
           </label>
         </div>
 
