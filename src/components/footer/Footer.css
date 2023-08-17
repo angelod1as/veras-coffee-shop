@@ -2,12 +2,17 @@
   display: flex;
   justify-content: space-between;
   gap: 0.5rem;
-  color: white;
+  color: #ffffff;
 }
 
 .contact-box {
-  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   flex: 1;
+  padding: 0.5rem;
+  gap: 0.5rem;
 }
 
 .box-brown {
@@ -22,15 +27,11 @@
   background-color: #63706b;
 }
 
-h3 {
-  margin-bottom: 0.5rem;
-}
-
 .logo-box {
-  margin-top: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 1rem;
 }
 
 .instagram-logo {

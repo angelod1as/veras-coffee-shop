@@ -1,23 +1,37 @@
 import React from "react";
-import "./footer.css";
+import "./Footer.css";
+import Image from "next/image";
 
 export const Footer = () => {
   return (
     <footer>
-      <h2 id="about-us" className="title-shadow about-title">
-        About us
-      </h2>
+      <h2 id="contact">Get in Contact </h2>
 
-      <div className="about-box">
-        <p>
-          This little shop has been a family business since 2006 — and for 2
-          years owned by Vera, who grew up in the coffee shop and always wanted
-          to be part of this family dream.
-        </p>
-        <p>
-          She wishes that every customer can have a good time, with a nice
-          selection of coffee and snacks.
-        </p>
+      <div className="contact-boxes">
+        <div className="contact-box box-brown">
+          <h3>Instagram</h3>
+          <div className="logo-box">
+            <a href="https://instagram.com" target="_blank">
+              <Image
+                src="/instagram.png"
+                alt="Instagram logo"
+                width={100}
+                height={100}
+                className="instagram-logo"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div className="contact-box box-darkgreen">
+          <h3>Our address</h3>
+          <p>Ria-Burkei-Straße 24, Munich</p>
+        </div>
+
+        <div className="contact-box box-green">
+          <h3>Phone number</h3>
+          <a href="tel:123456789">123 456 789</a>
+        </div>
       </div>
     </footer>
   );
